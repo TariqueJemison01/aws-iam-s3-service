@@ -1,5 +1,6 @@
 # Building an AWS IAM & S3 Management Application
-### Tools and Technologies
+
+## Tools and Technologies
 <div style="display: inline-block">
     <img title="C#" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg">
     <img title="AWS: IAM, S3" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg">
@@ -11,7 +12,7 @@ In January 2024, as part of an academic lab assignment, I developed a C# applica
 ## Objective
 The primary goal of this project was to create a WPF (Windows Presentation Foundation) application that enables users to manage AWS S3 buckets and perform object-level operations such as uploading and deleting objects. The application needed to provide a user-friendly interface for interacting with AWS services programmatically.
 
-## Implementation:
+## Implementation
 
 ### User Interface Design
 - The application featured a main window with buttons for accessing different functionalities: creating buckets and performing object-level operations.
@@ -30,17 +31,18 @@ The primary goal of this project was to create a WPF (Windows Presentation Found
 - Enabled users to upload selected objects to the chosen bucket by browsing and selecting files.
 - Upon successful upload, the newly uploaded objects were immediately reflected in the DataGrid.
 
-### Overall Design
-- Emphasized readability and maintainability of the codebase.
-- Ensured proper documentation and commented code for future reference and collaboration.
-- Adhered to best practices in C# application development for robustness and scalability.
 
 ## Outcome
 The developed application successfully met the objectives outlined in the lab assignment. It provided a user-friendly interface for managing AWS S3 buckets and performing object-level operations. Through this project, I gained hands-on experience with AWS services, C# programming, and WPF application development.
 
+## What I've Learned
+- **AWS S3 Management**: Gained practical experience in managing AWS S3 buckets and performing object-level operations.
+- **IAM Integration**: Understood how to integrate AWS Identity and Access Management (IAM) for secure access control.
+- **C# Application Development**: Enhanced my skills in C# programming language and WPF (Windows Presentation Foundation) for desktop application development.
+
+
 ## Conclusion
 This case study demonstrates my ability to implement practical solutions for real-world challenges using cloud services and programming languages. The project showcased my proficiency in AWS S3, IAM, and C# development, highlighting my capacity to deliver effective solutions in a professional setting.
-
 
 
 
