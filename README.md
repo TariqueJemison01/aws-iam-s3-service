@@ -7,6 +7,53 @@
 <img align = "left" title="Visual Studio 2022" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg"> <br /> <br />
 
 
+
+## Getting Started
+
+## Prerequisites for Visual Studio Project
+
+To ensure the project works smoothly in Visual Studio, you'll need the following:
+
+1. **Visual Studio**: Ensure you have Visual Studio 2019 or 2022 installed on your machine. You can [download](https://visualstudio.microsoft.com/downloads/) it from the official Microsoft website.
+
+2. **.NET Framework**: Since the project target .NET Framework version 4.7.2, make sure you have the corresponding .NET Framework installed on your machine. Visual Studio usually comes with multiple .NET Framework versions pre-installed, but you can check and install additional frameworks if needed through the Visual Studio Installer.
+
+3. **AWS SDK for .NET**: You'll need to install the `AWS S3` and `AWS SDK` for .NET to work with AWS services programmatically in the desktop application. You can install this using NuGet Package Manager within Visual Studio. Search for "AWSSDK" then "AWS S3" and install the package.
+
+4. **AWS IAM Credentials**: Ensure you have the necessary IAM user credentials (access key ID and secret access key) for accessing AWS services programmatically. You'll need to update these credentials in the `app.config` file as mentioned in the instructions in the **Getting Started** section.
+
+5. **Internet Connection**: Ensure your machine has an active internet connection, as the AWS SDK for .NET might need to download additional dependencies during installation.
+
+6. **Proper Configuration**: Double-check your Visual Studio project configuration to ensure it matches the project requirements and instructions provided in the lab document. This includes checking the target framework version and ensuring all necessary dependencies are included.
+
+If you encounter any issues, you can refer to the [AWS documentation](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/csharp_s3_code_examples.html) or seek assistance from online communities specializing in AWS and C# development.
+
+
+## Getting Started
+#### Clone or Download the Project
+Begin by cloning or downloading the project repository  to your local machine.
+
+#### Open Project in Visual Studio
+Launch Visual Studio and open the project.
+
+#### Update AWS Credentials
+Open the `app.config` file in your project.
+Locate the `<appSettings>` section.
+Update the `accessId` and `secretKey` values with your AWS IAM user's access key ID and secret access key, respectively. These credentials are necessary for accessing AWS services programmatically.
+
+```xml
+<appSettings>
+    <add key="accessId" value="YOUR_ACCESS_KEY_ID"/>
+    <add key="secretKey" value="YOUR_SECRET_ACCESS_KEY"/>
+</appSettings>
+```
+
+## Run the project
+You can now build and run the project
+
+<br>
+<br>
+
 ## Introduction
 In January 2024, as part of an academic lab assignment, I developed a C# application designed to interact with Amazon Web Services (AWS) S3 (Simple Storage Service) and IAM (Identity and Access Management) services. This case study outlines the objectives, implementation, and outcomes of the project.
 
