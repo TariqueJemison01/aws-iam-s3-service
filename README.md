@@ -1,10 +1,11 @@
 # AWS IAM & S3 Management Application
 
 ## Tools and Technologies
-<div style="display: inline-block">
-    <img title="C#" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg">
-    <img title="AWS: IAM, S3" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg">
-</div>
+
+<img align = "left" title="C#" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg">
+<img align = "left" title="AWS: IAM, S3" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg">
+<img align = "left" title="Visual Studio 2022" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg"> <br /> <br />
+
 
 ## Introduction
 In January 2024, as part of an academic lab assignment, I developed a C# application designed to interact with Amazon Web Services (AWS) S3 (Simple Storage Service) and IAM (Identity and Access Management) services. This case study outlines the objectives, implementation, and outcomes of the project.
