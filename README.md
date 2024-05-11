@@ -50,9 +50,9 @@ Update the `accessId` and `secretKey` values with your AWS IAM user's access key
 
 ## Run the project
 You can now build and run the project
+<br>
 
-<br>
-<br>
+---
 
 ## Introduction
 In January 2024, as part of an academic lab assignment, I developed a C# application designed to interact with Amazon Web Services (AWS) S3 (Simple Storage Service) and IAM (Identity and Access Management) services. This case study outlines the objectives, implementation, and outcomes of the project.
