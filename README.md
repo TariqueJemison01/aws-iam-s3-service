@@ -31,7 +31,7 @@ If you encounter any issues, you can refer to the [AWS documentation](https://do
 
 ## Getting Started
 #### Clone or Download the Project
-Begin by cloning or downloading the project repository  to your local machine.
+Begin by cloning or downloading the project repository to your local machine.
 
 #### Open Project in Visual Studio
 Launch Visual Studio and open the project.
