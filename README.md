@@ -1,4 +1,4 @@
-# Building an AWS IAM & S3 Management Application
+# AWS IAM & S3 Management Application
 
 ## Tools and Technologies
 <div style="display: inline-block">
