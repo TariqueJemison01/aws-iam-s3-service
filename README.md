@@ -1,6 +1,6 @@
 # AWS IAM & S3 Management Application
 
-## Tools and Technologies
+## Language, Tools and Technologies
 
 <img align = "left" title="C#" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg">
 <img align = "left" title="AWS: IAM, S3" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg">
